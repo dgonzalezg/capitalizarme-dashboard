@@ -21,7 +21,10 @@ function App() {
       </header>
       {
       loading ?
-      <Oval color="#00BFFF" height={450} width={750}/>
+      <div className="flex justify-center">
+        <Oval color="#00BFFF" height={450} width={750}/>
+      </div>
+      
       :
       error ?
       <p>Ha ocurrido un error al consultar los datos</p> 
